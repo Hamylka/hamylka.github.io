@@ -66,6 +66,10 @@
       </ul>
 
       <div class="flex items-center gap-2">
+        <a href="assets/CV-Maxime-Cauvin-FR.pdf" download data-cv class="cv-nav" data-i18n-aria="cv.aria" aria-label="Télécharger mon CV (PDF)">
+          <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>
+          <span class="hidden sm:inline" data-i18n="cv.nav">CV</span>
+        </a>
         <button id="lang-toggle" type="button" class="lang-toggle" aria-label="Changer de langue / Switch language">
           <span data-lang-opt="fr">FR</span><span data-lang-opt="en">EN</span>
         </button>
@@ -81,6 +85,7 @@
         <li><a class="mobile-link" href="#about" data-i18n="nav.about">À propos</a></li>
         <li><a class="mobile-link" href="#experience" data-i18n="nav.experience">Expérience</a></li>
         <li><a class="mobile-link" href="#contact" data-i18n="nav.contact">Contact</a></li>
+        <li><a class="mobile-link text-neon-cyan" href="assets/CV-Maxime-Cauvin-FR.pdf" download data-cv data-i18n="cv.hero">Télécharger mon CV</a></li>
       </ul>
     </div>
   </header>
@@ -104,7 +109,7 @@
         </p>
 
         <div class="reveal mt-8 flex flex-wrap gap-3 font-mono text-xs" style="--d:.22s">
-          <span class="chip">Unity</span><span class="chip">C# / C++</span><span class="chip">OpenXR</span><span class="chip">SteamVR / UnityXR</span><span class="chip">VIVE Wave</span><span class="chip">WebGL</span>
+          <span class="chip">Unity</span><span class="chip">C#</span><span class="chip">OpenXR</span><span class="chip">SteamVR / UnityXR</span><span class="chip">VIVE Wave</span><span class="chip">WebGL</span>
         </div>
 
         <div class="reveal mt-10 flex flex-wrap gap-4" style="--d:.3s">
@@ -112,6 +117,10 @@
             <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
           <a href="#contact" class="btn-ghost" data-i18n="hero.cta2">Me contacter</a>
+          <a href="assets/CV-Maxime-Cauvin-FR.pdf" download data-cv class="btn-cv">
+            <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>
+            <span data-i18n="cv.hero">Télécharger mon CV</span>
+          </a>
         </div>
       </div>
 
@@ -145,7 +154,7 @@
                 <div><dt data-i18n="pj1.k2">Défi</dt><dd data-i18n="pj1.v2">Respecter les spécifications des ingénieurs du client et rester fidèle aux données réelles du manuel du prototype, en étroite collaboration avec leur équipe.</dd></div>
               </dl>
               <ul class="badges"><li>Unity</li><li>C#</li><li>UI</li><li>Simulation</li></ul>
-              <a class="card-link" href="#contact"><span data-i18n="projects.more">En savoir plus</span> <i aria-hidden="true">→</i></a>
+              <!--<a class="card-link" href="#contact"><span data-i18n="projects.more">En savoir plus</span> <i aria-hidden="true">→</i></a> -->
             </div>
           </article>
 
@@ -156,7 +165,7 @@
               <a class="yt-link" href="https://www.youtube.com/watch?v=h1xvpZkK3Jc" target="_blank" rel="noopener noreferrer"><span data-i18n="projects.yt">Regarder sur YouTube</span> ↗</a>
             </div>
             <div class="project-body">
-              <p class="project-meta font-mono">dao &amp; Co · R&amp;D</p>
+              <p class="project-meta font-mono">dao &amp; Co · 2020</p>
               <h3 data-i18n="pj2.title">Kazak'tul Skull — VR Escape Game</h3>
               <p class="lead" data-i18n="pj2.desc">Pendant les confinements COVID, l'équipe a transformé le ralentissement du marché en opportunité avec un projet R&amp;D autofinancé.</p>
               <dl>
@@ -207,7 +216,7 @@
               <li><span>UnityXR</span><em data-y="4">4 ans</em><i style="--w:75%"></i></li>
               <li><span>SteamVR</span><em data-y="4">4 ans</em><i style="--w:75%"></i></li>
               <li><span>OpenXR</span><em data-y="2">2 ans</em><i style="--w:55%"></i></li>
-              <li><span>Mirror (multi)</span><em data-y="2">2 ans</em><i style="--w:55%"></i></li>
+              <li><span>Mirror Framework</span><em data-y="2">2 ans</em><i style="--w:55%"></i></li>
               <li><span>VIVE Wave XR</span><em data-y="1">1 ans</em><i style="--w:35%"></i></li>
             </ul>
           </div>
@@ -226,7 +235,7 @@
             <h3 class="panel-title"><b>◉</b> <span data-i18n="skills.hw">Matériels &amp; casques</span></h3>
             <!-- À adapter : listez ici les casques que vous avez réellement testés -->
             <ul class="badges big">
-              <li>HTC VIVE (SteamVR)</li><li>VIVE Focus (Wave)</li><li>Oculus Quest</li><li data-i18n="skills.hw3">Casques compatibles OpenXR</li><li data-i18n="skills.hw4">Contrôleurs &amp; trackers</li>
+              <li>HTC VIVE (SteamVR)</li><li>Oculus Quest</li><li>VIVE Focus (Wave)</li><li data-i18n="skills.hw3">Casques compatibles OpenXR</li><li data-i18n="skills.hw4">Contrôleurs &amp; trackers</li>
             </ul>
           </div>
 
@@ -369,7 +378,10 @@
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.980 3.500a2.500 2.500 0 1 1 0 5 2.500 2.500 0 0 1 0-5zM3 9.500h4V21H3zM9.500 9.500h3.800v1.600h.1c.530-1 1.830-2 3.770-2 4 0 4.800 2.600 4.800 6V21h-4v-5c0-1.200 0-2.800-1.700-2.800s-2 1.300-2 2.700V21h-4z"/></svg>
               <div><b>LinkedIn</b><span>maxime-cauvin</span></div>
             </a>
-            <a class="social" href="https://daoco.itch.io/kazaktul" target="_blank" rel="noopener noreferrer">
+            <a class="social" href="assets/CV-Maxime-Cauvin-FR.pdf" download data-cv>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M12 11v6m0 0-2.5-2.5M12 17l2.500-2.500"/></svg>
+              <div><b data-i18n="cv.card.title">CV</b><span data-i18n="cv.card.sub">Télécharger (PDF)</span></div>
+            </a>            <a class="social" href="https://daoco.itch.io/kazaktul" target="_blank" rel="noopener noreferrer">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3z"/><path d="M8 10v4M6 12h4M16 11h.01M18 13h.01"/></svg>
               <div><b>itch.io</b><span>Kazak'tul Skull</span></div>
             </a>

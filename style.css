@@ -224,3 +224,21 @@ body.lang-switching [data-i18n], body.lang-switching [data-i18n-html] { opacity:
 .project-body dl > div { padding-left: 1rem; border-left: 2px solid rgba(139, 92, 246, .55); }
 .project-body dt { font: 500 .72rem "JetBrains Mono", monospace; letter-spacing: .08em; text-transform: uppercase; color: #a78bfa; }
 .project-body dd { margin-top: .2rem; font-size: .92rem; line-height: 1.6; color: #cbd5e1; }
+
+/* ===== Téléchargement du CV ===== */
+.cv-nav {
+  display: inline-flex; align-items: center; gap: .45rem; height: 2.5rem; padding: 0 .8rem;
+  border-radius: .6rem; font: 600 .78rem "JetBrains Mono", monospace; color: var(--cyan);
+  border: 1px solid rgba(34, 211, 238, .4); background: rgba(34, 211, 238, .06);
+  transition: background .25s, box-shadow .25s, transform .25s, color .25s;
+}
+.cv-nav:hover { background: var(--cyan); color: #05060d; transform: translateY(-1px); box-shadow: 0 6px 22px -6px rgba(34, 211, 238, .7); }
+.cv-nav svg { transition: transform .25s; }
+.cv-nav:hover svg { transform: translateY(2px); }
+.btn-cv {
+  display: inline-flex; align-items: center; gap: .6rem; padding: .85rem 1.2rem; border-radius: .75rem;
+  font-weight: 600; font-size: .95rem; color: var(--cyan); transition: color .25s, transform .25s;
+}
+.btn-cv:hover { color: #fff; transform: translateY(-2px); }
+.btn-cv svg { transition: transform .25s; }
+.btn-cv:hover svg { transform: translateY(3px); }
